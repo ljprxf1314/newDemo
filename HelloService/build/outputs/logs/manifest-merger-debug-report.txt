@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:3:5-23
+	android:versionName
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:5:5-30
+		INJECTED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml
+		INJECTED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:4:5-28
+		INJECTED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml
+		INJECTED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml
+uses-sdk
+ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:7:5-43
+	android:minSdkVersion
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:7:15-40
+application
+ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:9:5-28:19
+	android:label
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:10:9-45
+activity#com.test.TestActivity
+ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:18:27-74
+service#com.test.IntentServiceDemo
+ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:22:9-26:19
+	android:name
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:22:18-51
+intent-filter#com.test.intentservice
+ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:23:13-25:29
+action#com.test.intentservice
+ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:24:17-64
+	android:name
+		ADDED from D:\a_workspace_copy\newDemo\HelloService\AndroidManifest.xml:24:25-62
