@@ -9,12 +9,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/HelloService" />
+            <option value="$PROJECT_DIR$/alarmdemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/customview" />
             <option value="$PROJECT_DIR$/designpatterns" />
             <option value="$PROJECT_DIR$/greendaodemo" />
             <option value="$PROJECT_DIR$/gridcount" />
             <option value="$PROJECT_DIR$/okhttpdemo" />
+            <option value="$PROJECT_DIR$/plcstoredemo" />
+            <option value="$PROJECT_DIR$/screendebug" />
             <option value="$PROJECT_DIR$/servicedemo" />
             <option value="$PROJECT_DIR$/threadpoolexecutedemo" />
           </set>

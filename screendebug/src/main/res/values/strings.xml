@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">大屏测试程序</string>
+
+    <string name="busid">Bus ID</string>
+    <string name="nbnum">寄存器个数</string>
+    <string name="serialnum">串口号</string>
+    <string name="serialnumer">ttyS1</string>
+</resources>

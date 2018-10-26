@@ -15,6 +15,8 @@ import android.widget.Toast;
 import com.ljp.greendaodemo.bean.RecordsBean;
 import com.ljp.greendaodemo.greendao.RecordsBeanDao;
 
+import org.greenrobot.greendao.query.QueryBuilder;
+
 import java.util.List;
 
 import butterknife.BindView;
@@ -85,9 +87,14 @@ public class MainActivity extends AppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.ll_arrow:
-                List<RecordsBean> list = mRecordsBeanDao.loadAll();
+                List<RecordsBean> list ;//= mRecordsBeanDao.loadAll();
+
+                QueryBuilder qb = mRecordsBeanDao.queryBuilder();
+                qb.where(RecordsBeanDao.Properties.Account.eq("13810102124"));
+                list = qb.list();
                 if (list !=null && list.size()>0){
-                    Log.e("登录信息",mRecordsBeanDao.loadAll().toString());
+                    Log.e("登录信息","长度:"+list.size()+"---内容:"+list.toString());
+                    Toast.makeText(this,"长度:"+list.size()+"---内容:"+list.toString(),Toast.LENGTH_LONG).show();
                 }else{
                     Toast.makeText(this,"没有数据",Toast.LENGTH_SHORT).show();
                 }

@@ -1,1 +1,1 @@
-include ':app', ':greendaodemo', ':designpatterns', ':gridcount', ':customview', ':servicedemo', ':HelloService', ':okhttpdemo', ':threadpoolexecutedemo'
+include ':app', ':greendaodemo', ':designpatterns', ':gridcount', ':customview', ':servicedemo', ':HelloService', ':okhttpdemo', ':threadpoolexecutedemo', ':alarmdemo', ':screendebug', ':plcstoredemo'

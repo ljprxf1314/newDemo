@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloService/HelloService.iml" filepath="$PROJECT_DIR$/HelloService/HelloService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alarmdemo/alarmdemo.iml" filepath="$PROJECT_DIR$/alarmdemo/alarmdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpatterns/designpatterns.iml" filepath="$PROJECT_DIR$/designpatterns/designpatterns.iml" />
@@ -10,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/gridcount/gridcount.iml" filepath="$PROJECT_DIR$/gridcount/gridcount.iml" />
       <module fileurl="file://$PROJECT_DIR$/newDemo.iml" filepath="$PROJECT_DIR$/newDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" filepath="$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plcstoredemo/plcstoredemo.iml" filepath="$PROJECT_DIR$/plcstoredemo/plcstoredemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screendebug/screendebug.iml" filepath="$PROJECT_DIR$/screendebug/screendebug.iml" />
       <module fileurl="file://$PROJECT_DIR$/servicedemo/servicedemo.iml" filepath="$PROJECT_DIR$/servicedemo/servicedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/threadpoolexecutedemo/threadpoolexecutedemo.iml" filepath="$PROJECT_DIR$/threadpoolexecutedemo/threadpoolexecutedemo.iml" />
     </modules>

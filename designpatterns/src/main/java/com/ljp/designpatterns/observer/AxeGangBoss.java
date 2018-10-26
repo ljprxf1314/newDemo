@@ -1,5 +1,6 @@
 package com.ljp.designpatterns.observer;
 
+import java.math.BigDecimal;
 import java.util.Observable;
 
 /**
@@ -33,13 +34,16 @@ public class AxeGangBoss extends Observable {
     }
 
     public static void main(String[] arg){
-        AxeGangPeople lisi = new AxeGangPeople("李四");
-        AxeGangPeople zhangsan = new AxeGangPeople("张三");
+//        AxeGangPeople lisi = new AxeGangPeople("李四");
+//        AxeGangPeople zhangsan = new AxeGangPeople("张三");
+//
+//        AxeGangBoss boss = new AxeGangBoss("雄霸天");
+//        boss.addObserver(lisi);
+//        boss.addObserver(zhangsan);
+//
+//        boss.sendMsg("我有难,快来救我!");
 
-        AxeGangBoss boss = new AxeGangBoss("雄霸天");
-        boss.addObserver(lisi);
-        boss.addObserver(zhangsan);
-
-        boss.sendMsg("我有难,快来救我!");
+        BigDecimal bg = new BigDecimal("0.");
+        System.out.println(bg.toString());
     }
 }
