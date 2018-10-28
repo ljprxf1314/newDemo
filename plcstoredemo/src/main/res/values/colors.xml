@@ -22,4 +22,11 @@
     <color name="color_blue">#4BA4FF</color>
     <color name="color_edf6ff">#edf6ff</color>
     <color name="color_c4d7ea">#C4D7EA</color>
+
+    <color name="color_f8f8f8">#f8f8f8</color>
+
+    <color name="box_full">#00B050</color>
+    <color name="box_null">#20000000</color>
+    <color name="box_underway">#FFC000</color>
+    <color name="box_jump">#C00000</color>
 </resources>

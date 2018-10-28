@@ -65,7 +65,7 @@ public class MainActivity extends BaseActivity {
         boolean includeEdge = true;
         mRvPaytype.addItemDecoration(new GridSpacingItemDecoration(spanCount, spacing, includeEdge));
 
-        MyGridLayoutManager layoutManager = new MyGridLayoutManager(this, listPlcType.size());
+        MyGridLayoutManager layoutManager = new MyGridLayoutManager(this, 4);
         layoutManager.setScrollEnabled(true);
         mRvPaytype.setLayoutManager(layoutManager);
         mRvPaytype.setAdapter(adapter);
